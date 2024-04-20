@@ -1,0 +1,49 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.main_container,.footer_container{
+
+    border: 2px solid salmon;
+    margin: 2rem 0;
+    padding: 2rem 0;
+}
+.header{
+    margin: 1rem;
+    padding: 1.5rem;
+    box-shadow: 4px 4px 10px black;
+    border-radius: 10px;
+
+    ul{
+        list-style: none;
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        li{
+            
+            font-weight: bold;
+            color: rgb(42, 134, 165);
+            transition: all 0.3s ease;
+            border-bottom: 2px solid transparent;
+            cursor: pointer;
+            text-decoration: none;
+
+            &:visited{
+                color: black;
+            }
+            a{
+                text-decoration: none;
+            }
+
+
+            &:hover{
+            
+                border-bottom: 2px solid black;
+                border-color: blue;
+            }
+        }
+       
+    }
+}
